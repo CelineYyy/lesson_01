@@ -19,7 +19,7 @@ ul li, ol li {
 .wrap {
   width: 1000px;
   height: 960px;
-  background-color: yellow;
+  background-color: #fff;
   margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ ul li, ol li {
   height: 70px;
 }
 
-.header .nav ul{
+.header .nav ul {
   float: right;
 }
 
@@ -59,17 +59,15 @@ ul li, ol li {
 }
 
 .header .nav ul li a:hover {
-  color: #000;
-  background-color: #f00;
-}
-
-.nav_list li a:link, .nav_list li a:visited {
-  color: #000;
+  color: #fff;
+  background-color: #990000;
 }
 
 .header .clear {
   clear: both;
 }
+
+/*---------- banner ----------*/
 
 .banner {
   width: 1000px;
@@ -77,26 +75,101 @@ ul li, ol li {
   background-color: pink;
 }
 
-.news_gundong {
+/*---------- flashnews ----------*/
+
+.flashnews {
+  color: #fff;
   width: 1000px;
   height: 44px;
-  background-color: purple;
+  background-color: #666;
+  margin-top: 10px;
 }
 
-.pic_list {
-  width: 1000px;
-  height: 130px;
-  background-color: gray;
+.flashnews_left {
+  width: 300px;
+  height: 44px;
+  background-color: #990000;
+  float: left;
+  line-height: 44px;
 }
+
+.flashnews_right {
+  width: 700px;
+  height: 44px;
+  background-color: #333;
+  line-height: 44px;
+  float: right;
+}
+
+.flashnews_left span {
+  display: block;
+  margin: 0 auto;
+}
+
+.flashnews_right span {
+  display: block;
+  padding-left: 40px;
+}
+
+/*---------- course ----------*/
+
+.course {
+  width: 1000px;
+  height: 162px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.course_pic {
+  width: 1000px;
+  height: 130ox;
+  background-color: #fff;
+}
+
+.course .course_pic .pic_list li {
+  float: left;
+}
+
+.course .course_pic .pic_list .mid_pic {
+  margin: 0 4px;
+}
+
+.clear {
+  clear: both;
+}
+
+.course_title {
+  width: 1000px;
+  height: 32px;
+  background-color: #fff;
+}
+
+.course_title .title_list li span {
+  display: block;
+  width: 328px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  border: 1px solid #999;
+}
+
+.course_title .title_list .mid_title {
+  margin: 0 4px;
+}
+
+/*---------- news ----------*/
 
 .news {
   width: 1000px;
   height: 200px;
   background-color: #558888;
+  margin-top: 10px;
 }
 
-.banquan {
+/*---------- copyright ----------*/
+
+.copyright {
   width: 1000px;
-  height: 60px;
+  height: 100px;
   background-color: green;
 }
