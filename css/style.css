@@ -124,24 +124,21 @@ img{
   background-color:pink ;
   margin-top: 10px;
 }
-
-.course_pic {
-  width: 1000px;
+.mid_pic_bs,.mid_pic_css,.mid_pic_js{
+  width: 330px;
   height: 130px;
-  background-color:#fff;
 }
-.pic_list{
-  overflow: hidden;
-}
-.course .course_pic .pic_list li {
+.mid_pic_bs{
   float: left;
 }
-
-.course .course_pic .pic_list .mid_pic {
+.mid_pic_js{
+  float: left;
+}
+.mid_pic_css{
+  float: left;
   margin: 0 4px;
 }
-
-.clear {
+.mid_pic_clear{
   clear: both;
 }
 
@@ -169,7 +166,7 @@ img{
 
 .news {
   width: 1000px;
-  height: 200px;
+  height: 300px;
   background-color: #fff;
   margin-top: 20px;
 }
@@ -180,7 +177,7 @@ img{
 
 .news_left, .news_mid, .news_right{
   width: 330px;
-  height: 200px;
+  height: 300px;
 }
 
 .news_left{
@@ -208,6 +205,19 @@ img{
 
 .news_right{
   background-color: blue;
+}
+
+.news_right_web,.news_right_teacher{
+  width: :330px;
+  height: 130px;
+}
+
+.news_right_teacher{
+  background-color: #ccc;
+}
+
+.news_right_web{
+  background-color: pink;
 }
 /*---------- copyright ----------*/
 
