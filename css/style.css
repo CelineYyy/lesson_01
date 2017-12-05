@@ -37,14 +37,18 @@ img{display: block;}
 
 /*---------- news ----------*/
 .news{width: 1000px;height: 300px;margin-top: 20px;background-color: #fff;}
-.news .news-box{width: 328px;height: 298px;border: 1px solid #ddd;float: left;}
+.news .news-box{width: 328px;height: 308px;border: 1px solid #ddd;float: left;}
 .news .news-box .title{width: 308px;height: 44px;background-color:#bd3847;line-height: 44px;padding-left: 20px;color: #fff;font-size: 14px;}
 .news .middle{margin: 0 5px;}
-.news .hot-news-list{padding:10px 5px;}
-.news .hot-news-list li{border-bottom: 1px solid #ddd;}
-.news .hot-news-list .date{width: 40px;height: 50px;background-color: #bd3847;border-radius: 4px;color:white;text-align: center;float: left;}
+.news .hot-news-list{padding:0 5px;}
+.news .hot-news-list li{height: 62px;border-bottom: 1px solid #ddd;margin-top: 20px;}
+.news .hot-news-list .date{width: 40px;height: 50px;background-color: #bd3847;border-radius: 4px;color:white;text-align: center;line-height: 50px;float: left;}
 .news .hot-news-list .item{width: 268px;float: left;margin-left: 10px;}
-
+.news .middle .hot-active .code-img{width: 298px;height: 150px;}
+.news .middle .hot-active ul{margin: 15px 15px 10px 15px;}
+.news .middle .hot-active ul li{margin-top: 3px;}
+.news .news-box .contact{margin: 15px;}
+.news .news-box .contact .web-coperation{margin-top: 20px;}
 
 /*---------- copyright ----------*/
-.copyright{width: 1000px;height: 100px;background-color: green;}
+.copyright{width: 1000px;height: 50px;background-color: #ddd;margin-top: 30px;text-align: center;line-height: 50px;}
